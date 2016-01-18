@@ -71,6 +71,13 @@ function admin_form( $s3_options ){
 					Archives
 				</td>
 			</tr>
+			<tr>
+				<th><label for="ss-exclude-on">Exclude on</label></th>
+				<td>
+					<input type="text" name="s3_options[ss-exclude-on]" value="<?php echo $s3_options['ss-exclude-on']; ?>">
+					<small><em>Comma seperated post id's Eg: </em><code>1207,1222</code></small>
+				</td>
+			</tr>
 			<tr class="tr-select-animation">
 				<th><label for="ss-select-animations">Select Animations</label></th>
 				<td>

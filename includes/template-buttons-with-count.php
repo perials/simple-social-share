@@ -6,7 +6,7 @@ function get_buttons_with_c_markup_arr(){
 								'twitter' => '<div class="s-single-share"><a href="https://twitter.com/share" class="twitter-share-button"></a>
 												</div>',
 								'googleplus' => '<div class="s-single-share">
-													<div class="g-plusone" data-size="medium"></div>
+													<div class="g-plusone" data-align="right" data-size="medium"></div>
 													</div>',
 								'digg' => '',
 								'reddit' => '<div class="s-single-share">
