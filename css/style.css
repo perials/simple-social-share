@@ -5,8 +5,6 @@
 	overflow: visible;
 }
 
-/*.twitter-share-button { min-width: 80px !important; width: auto !important;}
-.twitter-share-button body.ready{ width: auto !important; display: inline-block !important; }*/
 iframe.twitter-share-button #widget{ width: auto !important; display: inline-block !important; }
 [id^=___plusone]>iframe { width:auto !important; }
 
@@ -22,10 +20,9 @@ iframe.twitter-share-button #widget{ width: auto !important; display: inline-blo
 }
 /** For buttons without count **/
 #s-share-buttons.s-share-w-c a{
-	width: 32px;
-	height: 32px;
-	/*background-image: url("../social-icons/square-icons/square-icons-set.gif");*/
-	background-image: url("../images/main-icon-set.gif");
+	width: 48px;
+	height: 48px;
+	background-image: url("../images/main-icon-set.png");
 	margin-right: 4px;
 }
 .horizontal-w-c-r-border a,
@@ -38,38 +35,38 @@ iframe.twitter-share-button #widget{ width: auto !important; display: inline-blo
 	border-right: 2px;
 }
 .s-share-w-c a.s3-facebook{
-	background-position: 0 640px;
-}
-.s-share-w-c a.s3-twitter{
 	background-position: 0 96px;
 }
+.s-share-w-c a.s3-twitter{
+	background-position: 0 144px;
+}
 .s-share-w-c a.s3-google-plus{
-	background-position: 0 512px;
-}
-.s-share-w-c a.s3-digg{
-	background-position: 0 704px;
-}
-.s-share-w-c a.s3-reddit{
 	background-position: 0 192px;
 }
+.s-share-w-c a.s3-digg{
+	background-position: 0 240px;
+}
+.s-share-w-c a.s3-reddit{
+	background-position: 0 288px;
+}
 .s-share-w-c a.s3-linkedin{
-	background-position: 0 480px;
+	background-position: 0 336px;
 }
 .s-share-w-c a.s3-stumbleupon{
-	background-position: 0 160px;
+	background-position: 0 384px;
 }
 .s-share-w-c a.s3-tumblr{
-	background-position: 0 128px;
+	background-position: 0 432px;
 }
 .s-share-w-c a.s3-email{
-	background-position: 0 416px;
+	background-position: 0 528px;
 }
 .s-share-w-c .pinit-btn-div{
-	width: 32px;
-	height: 32px;
+	width: 48px;
+	height: 48px;
 	display: inline-block;
-	background-image: url("../images/main-icon-set.gif");
-	background-position: 0 256px;
+	background-image: url("../images/main-icon-set.png");
+	background-position: 0 480px;
 	margin-right: 2px;
 }
 .s-share-w-c .pinit-btn-div a {
